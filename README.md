@@ -32,6 +32,11 @@ weather now --location 'New York, New York'
 ```
 <img src="/assets/weather-now-location.png" alt="Image of weather CLI app" width="500"/>
 
+```
+weather now --l 'Salt Lake City, UT'
+```
+<img src="/assets/weather-slc.png" alt="Image of weather CLI app" width="500"/>
+
 typing ```weather --help``` will explain the options and flags you can use.
 
 <img src="/assets/weather-help.png" alt="Image of weather CLI app" width="500"/>
