@@ -11,5 +11,8 @@
   "license": "ISC",
   "bin": {
     "weather": "bin/weather"
-    }
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
 }
