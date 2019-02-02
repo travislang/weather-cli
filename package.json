@@ -6,14 +6,22 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "keywords": [],
-    "author": "",
+    "keywords": [
+        "weather",
+        "forecast",
+        "cli"
+    ],
+    "author": "Travis Lang",
     "license": "MIT",
     "homepage": "https://github.com/travislang/weather-cli#readme",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/travislang/weather-cli.git"
     },
+    "engines": {
+        "node": ">=8"
+    },
+    "preferGlobal": true,
     "bin": {
         "weather": "bin/weather"
     },
