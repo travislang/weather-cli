@@ -48,7 +48,7 @@ module.exports = async (args) => {
         |    ---------------     ---------------     ---------------    |
         |                                                               |
          ---------------------------------------------------------------      
-         `.magenta)
+         `.cyan)
     } catch (err) {
         spinner.stop()
         console.error(err)
