@@ -1,4 +1,5 @@
 const minimist = require('minimist');
+const error = require('./utils/error')
 require('dotenv').config();
 
 
@@ -28,7 +29,7 @@ module.exports = () => {
             require('./cmds/help')(args);
             break
         default:
-            console.error(`"${cmd}" is not a valid command.  Try running 'weather --help'`)
+            error(`"${cmd}" is not a valid command.  Try running 'weather --help'`, true)
             break
     }
 }

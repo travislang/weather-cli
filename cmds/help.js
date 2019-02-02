@@ -5,6 +5,7 @@ const menus = {
     weather [command] <options>
 
     now ................ show weather right now
+    forecast ........... show 3 day weather forecast
     version ............ show package version
     help ............... show help menu for a command
     `,
