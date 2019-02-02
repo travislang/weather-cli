@@ -1,7 +1,6 @@
 const minimist = require('minimist');
 require('dotenv').config();
 
-console.log(process.env);
 
 module.exports = () => {
     const args = minimist(process.argv.slice(2));
