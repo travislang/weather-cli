@@ -18,10 +18,8 @@ The location automatically defaults to your current location.
 
 ## Options
 
-If you want to get the 3 day weather forecast simply type 
-```
-weather forecast
-```
+If you want to get the 3 day weather forecast simply type ```weather forecast```
+
 <img src="/assets/weather-forecast.png" alt="Image of weather CLI app" width="500"/>
 
 If you want to know the current weather for a location other than your own you can use the ```--location``` flag or just ```-l```
