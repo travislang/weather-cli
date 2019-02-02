@@ -37,7 +37,7 @@ module.exports = async (args) => {
         // DO NOT CHANGE FORMATTING - it will align correctly in the console
         console.log(`  
          ---------------------------------------------------------------
-        |            3 Day Forecast for ${paddedLocation}               |
+        |            3 Day Forecast for ${paddedLocation}       |
         |                                                               |
         |         Today             Tomorrow            Day After       |
         |    ---------------     ---------------     ---------------    |
@@ -48,7 +48,7 @@ module.exports = async (args) => {
         |    ---------------     ---------------     ---------------    |
         |                                                               |
          ---------------------------------------------------------------      
-         `.cyan)
+         `.magenta)
     } catch (err) {
         spinner.stop()
         console.error(err)
