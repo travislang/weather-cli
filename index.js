@@ -1,4 +1,7 @@
 const minimist = require('minimist');
+require('dotenv').config();
+
+console.log(process.env);
 
 module.exports = () => {
     const args = minimist(process.argv.slice(2));
@@ -16,12 +19,14 @@ module.exports = () => {
         case 'now':
             require('./cmds/now')(args);
             break
-        case 'version':
-            require('./cmds/version')(args)
+        case 'forecast':
+            require('./cmds/forecast')(args);
             break
-
+        case 'version':
+            require('./cmds/version')(args);
+            break
         case 'help':
-            require('./cmds/help')(args)
+            require('./cmds/help')(args);
             break
         default:
             console.error(`"${cmd}" is not a valid command.  Try running 'weather --help'`)
